@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import "tailwindcss";
+
+@utility text-gradient{
+  @apply bg-linear-to-r from-[#DC67FF] to-[#ABBBFF] bg-clip-text text-transparent;
+}
+
+@utility background-color-gradient{
+  @apply bg-gradient-to-b from-[#2D2E7C] via-[#090a2a] to-[#020314];
+}
+
+body{
+  color: #fff;
+}
+
+
