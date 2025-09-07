@@ -14,7 +14,7 @@ const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const API_OPTIONS = {
   method: 'GET',
   headers: {
-    accept: 'appication/json',
+    accept: 'application/json',
     Authorization: `Bearer ${API_KEY}`
   }
 }
@@ -95,8 +95,8 @@ const App = () => {
  
       <div className='wrapper background-color-gradient flex flex-col ' >
         <header className='flex flex-col items-center'>
-          <img src='./logo.png' className='w-28 h-28' />
-          <img src='./hero-banner.png' className='hero-banner shadow-lg w-[300px] h-[300px] sm:w-[450px] sm:h-[350px]' />
+          <img src='/logo.png' className='w-28 h-28' />
+          <img src='/hero-banner.png' className='hero-banner shadow-lg w-[300px] h-[300px] sm:w-[450px] sm:h-[350px]' />
           <h1 className='text-3xl sm:text-4xl max-w-md text-center font-bold'>Find <span className='text-gradient'>Movies</span> You'll Enjoy Without The Hassle</h1>
 
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
