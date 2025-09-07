@@ -113,7 +113,7 @@ const App = () => {
 
       
       
-        <section className='all-movies pt-16 pr-8 pl-8 sm:p-16 bg-[#020314]'>
+        <section className='all-movies pt-16 pb-16 pr-8 pl-8 sm:p-16 bg-[#020314]'>
           <h2 className='text-2xl font-bold mb-8'>All Movies</h2>
 
           {isLoading ? (
