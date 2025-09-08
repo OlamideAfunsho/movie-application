@@ -24,3 +24,4 @@ const MovieCard = ({movie:{title, vote_average, poster_path, release_date, origi
 }
 
 export default MovieCard
+
